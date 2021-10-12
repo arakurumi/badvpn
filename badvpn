@@ -1,8 +1,7 @@
  #!/bin/bash
 apt update
 apt upgrade -y
-apt install wget
-apt install cmake
+apt -y install wget cmake
 
 cd
 
